@@ -34,14 +34,11 @@ Laser Chess는 가로 8개와 세로 8개, 총 64개의 정사각형으로 이�
 
 #### 승리 조건
 상대편 진영의 King을 부서트리면 승리한다. 
-
-
-## Implementation
-유튜브의 Unity 대가들에게 도움을 받았다.  
+ 
 
 ## Environment
 #### 개발 환경 : Unity 2020.3.14f1 Personal  
 
 
-## Prerequisite
-No packages and dependency required
+## Download our game!
+https://drive.google.com/drive/folders/1FKoiz0WkiLnDTyhHP-RKd-eRvV6ER-cR?usp=sharing
