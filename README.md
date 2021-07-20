@@ -2,7 +2,7 @@
 몰입캠프 Week 3 과제는 자유구현이었다. **'Laser Chess 3D in Unity'**는 <<더지니어스>>에서 소개된 '레이저 장기'와 기존의 Laser Chess 보드게임을 Modify한 3D 가상공간 보드게임으로, 아래의 exe 파일을 다운받으면 직접 게임을 Play할 수 있다.   
 
 ## Team information
-### Members : 장종원, 임가은    
+##### Members : 장종원, 임가은    
 
 ## 게임 규칙
 ### 경기 준비
@@ -15,11 +15,9 @@ Laser Chess는 가로 8개와 세로 8개, 총 64개의 정사각형으로 이�
 |RectKnight|1개의 면이 거울이다. 나머지 3개의 면은 공격받을 수 있다.|
 |Splitter|중심부에 있는 1개의 면이 양면 거울이자 투과판이다. 입사한 레이저를 반사, 및 동시에 투과시켜 2갈래로 나눈다. Splliter는 공격받아도 죽지 않는다.|
 
-<p align="center">
-<img src="Link" width="270" height="570">
-</p>
+![pieces](https://user-images.githubusercontent.com/59522019/126341101-910a104a-9a46-4819-9c18-836f5eea769b.JPG)
 
-게임이 시작되면, 기물들은 다음 그림과 같은 포지션으로 배치된다. 각 선수는 Laser 1개, King 1개, TriKnight 4개, RectKnight2개, Splitter 1개씩 총 9개의 기물을 가지고 시작한다. 하나의 말은 한 칸에 들어간다.  
+게임이 시작되면, 기물들은 다음 그림과 같은 포지션으로 배치된다. 각 선수는 Laser 1개, King 1개, TriKnight 4개, RectKnight2개, Splitter 1개씩 총 9개의 기물을 가지고 시작한다. 하나의 말은 한 칸에 들어간다.
 
 
 #### 경기 진행
@@ -35,6 +33,8 @@ Laser Chess는 가로 8개와 세로 8개, 총 64개의 정사각형으로 이�
 
 #### 승리 조건
 상대편 진영의 King을 부서트리면 승리한다.  
+
+![board2](https://user-images.githubusercontent.com/59522019/126341105-376ea070-5d62-4aaa-9687-7d63b1d7d7fd.gif)
 
 
 ## Implementation
